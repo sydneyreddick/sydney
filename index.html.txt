@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Sydney Reddick</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume">
+    <div class="base">
+      <div class="profile">
+        <div class="photo">
+          <img src="images/image0.jpeg" alt="Profile Picture" />
+        </div>
+        <div class="info">
+          <h1 class="name">Sydney Reddick</h1>
+          <h2 class="job">Customer Service Cashier</h2>
+        </div>
+      </div>
+      <div class="about">
+        <h3>About Me</h3>
+        <p>
+          I'm a student currently enrolled in the Database Administration program at SAIT, hoping to expand my skills into the IT industry.
+        </p>
+      </div>
+      <div class="contact">
+        <h3>Contact Me</h3>
+        <div class="call">
+          <a href="tel:123-456-7890"><i class="fas fa-phone"></i><span>123-456-7890</span></a>
+        </div>
+        <div class="address">
+          <a href="https://www.google.com/maps/search/sait/@50.8784076,-114.2651306,10z/data=!3m1!4b1?entry=ttu">
+            <i class="fas fa-map-marker"></i><span>Calgary, Alberta</span>
+          </a>
+        </div>
+        <div class="email">
+          <a href="mailto:sydneyreddick12@gmail.com"><i class="fas fa-envelope"></i><span>sydneyreddick12@gmail.com</span></a>
+        </div>
+      </div>
+      <div class="follow">
+        <h3>Follow Me</h3>
+        <div class="box">
+          <a href="https://www.linkedin.com/in/sydney-reddick" target="_blank">
+            <i class="fab fa-linkedin" aria-label="LinkedIn"></i>
+          </a>
+          <a href="https://github.com/sydneyreddick?tab=repositories" target="_blank">
+            <i class="fab fa-github" aria-label="GitHub"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="func">
+      <div class="work">
+        <h3><i class="fa fa-briefcase"></i> Experience</h3>
+        <ul>
+          <li>
+            <span>File Maintenance Coordinator - Price Changing</span>
+            <small>Fiserv</small>
+            <small>Jan 2021 - Sept 2024</small>
+          </li>
+          <li>
+            <span>Travel Agency Project</span>
+            <small>SAIT</small>
+            <small>Sept 2024 - Apr 2025</small>
+          </li>
+        </ul>
+      </div>
+      <div class="edu">
+        <h3><i class="fa fa-graduation-cap"></i> Education</h3>
+        <ul>
+          <li>
+            <span>Database Administration Diploma</span>
+            <small>SAIT - Alberta</small>
+            <small>Sept 2024 - Apr 2025</small>
+          </li>
+          <li>
+            <span>High School Diploma</span>
+            <small>Joane Cardinal Schubert High School</small>
+            <small>Sept 2017 - Jun 2020</small>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
